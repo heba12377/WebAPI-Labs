@@ -6,6 +6,7 @@ namespace Day1
 {
     public class Program
     {
+        //TODO: Remove this redundant counter
         public int counter = 0;
         public static void Main(string[] args)
         {
