@@ -11,3 +11,17 @@ Day1 Requirements :
 - Add Validation on Car Object to be (ProductionDate to be in  the past only).
 - Post method should return the url for the newly added car in the header.
 - Add a new property to the Car Model Called Type. Old endpoint should explicitly assign this property with “Gas”. New endpoint should validate that this property can only accept “Electric, Gas, Diesel and Hybrid”.
+
+
+Day2 Requirements : 
+ 
+(layered architecture style)
+- Ticket => ID, Desc, Severity(Nullable), EstimationCost
+- Developer => ID, Name
+- Department => ID, Name
+
+- Get All Tickets => Hide Estimation Cost
+- Add Ticket => don't take Severity
+
+- Ticket Many To Many with Devs
+- Department On to Many with Ticket
